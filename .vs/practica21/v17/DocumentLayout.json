@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\georg\\source\\repos\\practica21\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\georg\\source\\repos\\practica21\\practica21\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:practica21\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\views\\formulariousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\views\\formulariousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\views\\actualizarusuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +31,38 @@
       "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\helpers\\gravatarhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\resources\\images\\mas.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\resources\\images\\mas.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\views\\actualizarusuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\views\\actualizarusuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\views\\formulariousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\views\\formulariousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\views\\actualizarusuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\views\\actualizarusuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|c:\\users\\georg\\source\\repos\\practica21\\practica21\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99CA4F3-CC4A-4999-AD5B-E2CD54FBBEF1}|practica21\\practica21.csproj|solutionrelative:practica21\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\georg\\AppData\\Local\\Temp\\.vsdbgsrc\\8b2d009409131d8d6458c2b79ae310bbf689b0f5\\App.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\georg\\AppData\\Local\\Temp\\.vsdbgsrc\\24f101bb33e6255bae324706c8d962b33f2e6938\\Resources_Styles_Styles.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +72,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,103 +84,201 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "practica21\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "practica21\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T00:03:03.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GravatarHelper.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Helpers\\GravatarHelper.cs",
               "RelativeDocumentMoniker": "practica21\\Helpers\\GravatarHelper.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Helpers\\GravatarHelper.cs",
               "RelativeToolTip": "practica21\\Helpers\\GravatarHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:31:13.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T17:31:13.034Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "mas.png - PNG [32x32, 32 bits, PNG]",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Resources\\Images\\mas.png",
-              "RelativeDocumentMoniker": "practica21\\Resources\\Images\\mas.png",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Resources\\Images\\mas.png - PNG [32x32, 32 bits, PNG]",
-              "RelativeToolTip": "practica21\\Resources\\Images\\mas.png - PNG [32x32, 32 bits, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-20T16:45:08.964Z",
-              "EditorCaption": " - PNG [32x32, 32 bits, PNG]"
+              "Title": "FormularioUsuario.xaml",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\FormularioUsuario.xaml",
+              "RelativeDocumentMoniker": "practica21\\Views\\FormularioUsuario.xaml",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\FormularioUsuario.xaml",
+              "RelativeToolTip": "practica21\\Views\\FormularioUsuario.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAFsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-21T00:24:16.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormularioUsuario.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\FormularioUsuario.xaml.cs",
-              "RelativeDocumentMoniker": "practica21\\Views\\FormularioUsuario.xaml.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\FormularioUsuario.xaml.cs",
-              "RelativeToolTip": "practica21\\Views\\FormularioUsuario.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:35:09.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "practica21\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml.cs",
-              "RelativeToolTip": "practica21\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:14:07.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ActualizarUsuario.xaml",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\ActualizarUsuario.xaml",
               "RelativeDocumentMoniker": "practica21\\Views\\ActualizarUsuario.xaml",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\ActualizarUsuario.xaml",
               "RelativeToolTip": "practica21\\Views\\ActualizarUsuario.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-20T15:31:34.346Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml",
+              "RelativeDocumentMoniker": "practica21\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml",
+              "RelativeToolTip": "practica21\\MainPage.xaml",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAqwPcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T12:02:43.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormularioUsuario.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\FormularioUsuario.xaml.cs",
+              "RelativeDocumentMoniker": "practica21\\Views\\FormularioUsuario.xaml.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\FormularioUsuario.xaml.cs",
+              "RelativeToolTip": "practica21\\Views\\FormularioUsuario.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:35:09.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ActualizarUsuario.xaml.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\ActualizarUsuario.xaml.cs",
               "RelativeDocumentMoniker": "practica21\\Views\\ActualizarUsuario.xaml.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Views\\ActualizarUsuario.xaml.cs",
               "RelativeToolTip": "practica21\\Views\\ActualizarUsuario.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwDIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T15:28:16.505Z",
+              "WhenOpened": "2025-01-20T15:28:16.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "practica21\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml.cs",
+              "RelativeToolTip": "practica21\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:14:07.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "practica21\\ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "practica21\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwGcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T15:27:42.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml",
-              "RelativeDocumentMoniker": "practica21\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MainPage.xaml",
-              "RelativeToolTip": "practica21\\MainPage.xaml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswEoAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "practica21\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Models\\Usuario.cs",
+              "RelativeToolTip": "practica21\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T02:23:22.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\AppShell.xaml",
+              "RelativeDocumentMoniker": "practica21\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\AppShell.xaml",
+              "RelativeToolTip": "practica21\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-19T12:02:43.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T00:21:24.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\App.xaml",
+              "RelativeDocumentMoniker": "practica21\\App.xaml",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\App.xaml",
+              "RelativeToolTip": "practica21\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-21T00:38:23.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "practica21\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "practica21\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T01:07:05.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "practica21\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\practica21\\practica21\\MauiProgram.cs",
+              "RelativeToolTip": "practica21\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T01:06:33.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Resources_Styles_Styles.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\AppData\\Local\\Temp\\.vsdbgsrc\\24f101bb33e6255bae324706c8d962b33f2e6938\\Resources_Styles_Styles.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\24f101bb33e6255bae324706c8d962b33f2e6938\\Resources_Styles_Styles.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\georg\\AppData\\Local\\Temp\\.vsdbgsrc\\24f101bb33e6255bae324706c8d962b33f2e6938\\Resources_Styles_Styles.xaml.sg.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\24f101bb33e6255bae324706c8d962b33f2e6938\\Resources_Styles_Styles.xaml.sg.cs [Solo lectura]",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T00:40:34.832Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\AppData\\Local\\Temp\\.vsdbgsrc\\8b2d009409131d8d6458c2b79ae310bbf689b0f5\\App.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\8b2d009409131d8d6458c2b79ae310bbf689b0f5\\App.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\georg\\AppData\\Local\\Temp\\.vsdbgsrc\\8b2d009409131d8d6458c2b79ae310bbf689b0f5\\App.xaml.sg.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\8b2d009409131d8d6458c2b79ae310bbf689b0f5\\App.xaml.sg.cs [Solo lectura]",
+              "ViewState": "AgIAAAEAAAAAAAAAAAArwBUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T00:40:41.399Z",
+              "EditorCaption": " [Solo lectura]"
             }
           ]
         }

@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:practica21"
              x:Class="practica21.App">
     <Application.Resources>
+        
+     
+
+
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />

@@ -36,46 +36,18 @@ public class MainViewModel
         // Comandos
         ComandoCargarUsuarios = new Command(async () => await CargarUsuarios());
         ComandoAñadir = new Command(async () => await MostrarFormularioAñadirUsuario());
-        //ComandoActualizar = new Command(async () => await ActualizarUsuario());
-        //ComandoEliminar = new Command(async () => await EliminarUsuario());
         ComandoAbrirFormulario = new Command(async () => await Shell.Current.GoToAsync("///FormularioUsuario"));
         ComandoActualizarUsuario = new Command(async () => await Shell.Current.GoToAsync("///ActualizarUsuario"));
         ComandoEliminarUsuario = new Command<Usuario>(async (usuario) => await EliminarUsuario(usuario));
         ComandoSeleccionarUsuario = new Command<Usuario>((usuario) => UsuarioSeleccionado = usuario);
-
-
-        _ = CargarUsuarios();
+        //_ = CargarUsuarios();
     }
 
-    public Usuario UsuarioSeleccionado
-    {
-        get => _usuarioSeleccionado;
-        set
-        {
-            _usuarioSeleccionado = value;
-            if (_usuarioSeleccionado != null)
-            {
-                AbrirFormularioActualizar();
-            }
-        }
-    }
-
-    private async void AbrirFormularioActualizar()
-    {
-        if (UsuarioSeleccionado != null)
-        {
-            await Shell.Current.GoToAsync($"///ActualizarUsuario?id={UsuarioSeleccionado.Id}&nombre={UsuarioSeleccionado.Nombre}&correo={UsuarioSeleccionado.Correo}");
-        }
-        else
-        {
-            Console.WriteLine("No se seleccionó ningún usuario.");
-        }
-    }
+   
 
 
 
-
-
+    //GET
     public async Task CargarUsuarios()
     {
         try
@@ -96,7 +68,7 @@ public class MainViewModel
         catch (HttpRequestException ex)
         {
             Console.WriteLine($"Error de conexión: {ex.Message}");
-            await App.Current.MainPage.DisplayAlert("Error de Conexión", "No se pudo conectar al servidor. Verifica tu conexión a internet.", "OK");
+            await App.Current.MainPage.DisplayAlert("Error de Conexión", "No se pudo conectar al servidor.", "OK");
         }
         catch (Exception ex)
         {
@@ -107,6 +79,7 @@ public class MainViewModel
 
 
 
+    //POST
     public async Task AñadirUsuario(string nombre, string correo)
     {
         try
@@ -131,7 +104,7 @@ public class MainViewModel
         catch (HttpRequestException ex)
         {
             Console.WriteLine($"Error de conexión: {ex.Message}");
-            await App.Current.MainPage.DisplayAlert("Error de Conexión", "No se pudo conectar al servidor. Verifica tu conexión a internet.", "OK");
+            await App.Current.MainPage.DisplayAlert("Error de Conexión", "No se pudo conectar al servidor.", "OK");
         }
         catch (Exception ex)
         {
@@ -143,47 +116,46 @@ public class MainViewModel
 
 
 
-
-    private async Task MostrarFormularioAñadirUsuario()
-    {
-        string nombre = await App.Current.MainPage.DisplayPromptAsync("Nuevo Usuario", "Introduce el nombre:");
-        if (string.IsNullOrWhiteSpace(nombre)) return;
-
-        string correo = await App.Current.MainPage.DisplayPromptAsync("Nuevo Usuario", "Introduce el correo:");
-        if (string.IsNullOrWhiteSpace(correo)) return;
-
-        await AñadirUsuario(nombre, correo);
-    }
-
-
-
+    //PUT
     public async Task ActualizarUsuario(string id, string nombre, string correo)
     {
         try
         {
-            // Buscar el usuario en la lista local para mantener el avatar
+            // Buscar el usuario en la lista local para mantener otros datos
             var usuarioActual = Usuarios.FirstOrDefault(u => u.Id == id);
 
-            // Si no se encuentra, generamos un nuevo avatar
-            var avatarUrl = usuarioActual?.AvatarUrl ?? GravatarHelper.GetGravatarUrl(correo);
+            // Generar un nuevo avatar basado en el correo actualizado
+            var avatarUrl = GravatarHelper.GetGravatarUrl(correo);
 
-            // Crear el objeto actualizado con el avatar existente
-            var usuarioActualizado = new Usuario { Id = id, Nombre = nombre, Correo = correo, AvatarUrl = avatarUrl };
+            // Crear el objeto actualizado con el avatar recalculado
+            var usuarioActualizado = new Usuario
+            {
+                Id = id,
+                Nombre = nombre,
+                Correo = correo,
+                AvatarUrl = avatarUrl // Actualizamos el avatar con el nuevo correo
+            };
 
+            // Enviar la actualización a la API
             var respuesta = await _httpClient.PutAsJsonAsync($"usuarios/{id}", usuarioActualizado);
 
             if (respuesta.IsSuccessStatusCode)
             {
-                await CargarUsuarios(); // Recargar la lista después de actualizar
+                // Recargar la lista después de actualizar
+                await CargarUsuarios();
+                Console.WriteLine("Usuario actualizado correctamente");
             }
             else
             {
                 var mensajeError = await respuesta.Content.ReadAsStringAsync();
+                Console.WriteLine($"Error al actualizar usuario: {mensajeError}");
             }
         }
         catch (HttpRequestException ex)
         {
             Console.WriteLine($"Error de conexión: {ex.Message}");
+
+            //await App.Current.MainPage.DisplayAlert("Error de Conexión", "No se pudo conectar al servidor.", "OK");
         }
         catch (Exception ex)
         {
@@ -197,6 +169,7 @@ public class MainViewModel
 
 
 
+    //DELETE
     private async Task EliminarUsuario(Usuario usuario)
     {
         if (usuario == null) return;
@@ -212,17 +185,64 @@ public class MainViewModel
             {
                 var mensajeError = await respuesta.Content.ReadAsStringAsync();
                 Console.WriteLine($"Error al eliminar usuario: {mensajeError}");
+                await App.Current.MainPage.DisplayAlert("Error", "No se pudo eliminar el usuario. Intente más tarde.", "OK");
             }
         }
         catch (HttpRequestException ex)
         {
             Console.WriteLine($"Error de conexión: {ex.Message}");
+            await App.Current.MainPage.DisplayAlert("Error de Conexión", "No se pudo conectar al servidor. Verifica tu conexión a internet.", "OK");
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error desconocido al eliminar usuario: {ex.Message}");
+            await App.Current.MainPage.DisplayAlert("Error", "Ocurrió un error inesperado. Intente más tarde.", "OK");
         }
     }
+
+    //MUESTRA USUARIO SELECCIONADO
+    public Usuario UsuarioSeleccionado
+    {
+        get => _usuarioSeleccionado;
+        set
+        {
+            _usuarioSeleccionado = value;
+            if (_usuarioSeleccionado != null)
+            {
+                AbrirFormularioActualizar();
+            }
+        }
+    }
+
+
+    //ABRE FORMULARIO PARA ACTUALIZAR
+    private async void AbrirFormularioActualizar()
+    {
+        if (UsuarioSeleccionado != null)
+        {
+            await Shell.Current.GoToAsync($"///ActualizarUsuario?id={UsuarioSeleccionado.Id}&nombre={UsuarioSeleccionado.Nombre}&correo={UsuarioSeleccionado.Correo}");
+        }
+        else
+        {
+            Console.WriteLine("No se seleccionó ningún usuario.");
+        }
+    }
+
+
+    //ABRE FROMULARIO PARA AÑADIR
+    private async Task MostrarFormularioAñadirUsuario()
+    {
+        string nombre = await App.Current.MainPage.DisplayPromptAsync("Nuevo Usuario", "Introduce el nombre:");
+        if (string.IsNullOrWhiteSpace(nombre)) return;
+
+        string correo = await App.Current.MainPage.DisplayPromptAsync("Nuevo Usuario", "Introduce el correo:");
+        if (string.IsNullOrWhiteSpace(correo)) return;
+
+        await AñadirUsuario(nombre, correo);
+    }
+
+
+
 
 
 }

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage 
+<ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="practica21.MainPage"
@@ -7,20 +7,27 @@
 
     <VerticalStackLayout Padding="10" Spacing="10">
 
-        <!-- Título -->
+        <!-- TÍTULO: FontSize según plataforma -->
         <Label Text="Gestión de Usuarios"
-               FontSize="24"
                TextColor="#FF8C00"
-               HorizontalOptions="Center" />
+               HorizontalOptions="Center">
 
-        <!-- Logo (opcional) -->
+            <Label.FontSize>
+                <OnPlatform x:TypeArguments="x:Double">
+                    <On Platform="Android" Value="20" />
+                    <On Platform="WinUI"   Value="24" />
+                </OnPlatform>
+            </Label.FontSize>
+        </Label>
+
+        <!-- LOGO (opcional) -->
         <Image Source="logo.png"
-               WidthRequest="100"
-               HeightRequest="100"
+               WidthRequest="85"
+               HeightRequest="85"
                Aspect="AspectFill"
                Margin="0,0,10,0" />
 
-        <!-- BARRA DE BOTONES: Añadir / Refrescar -->
+        <!-- BARRA DE BOTONES (FlexLayout) -->
         <FlexLayout Direction="Row"
                     Wrap="NoWrap"
                     JustifyContent="Center"
@@ -37,7 +44,7 @@
                     ImageSource="mas.png"
                     Margin="0,0,20,0">
 
-                <!-- Texto según la plataforma -->
+                <!-- Texto según plataforma -->
                 <Button.Text>
                     <OnPlatform x:TypeArguments="x:String">
                         <On Platform="Android" Value="Añadir" />
@@ -52,6 +59,14 @@
                         <On Platform="WinUI"   Value="120" />
                     </OnPlatform>
                 </Button.WidthRequest>
+
+                <!-- FontSize según la plataforma -->
+                <Button.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android" Value="12" />
+                        <On Platform="WinUI"   Value="14" />
+                    </OnPlatform>
+                </Button.FontSize>
             </Button>
 
             <!-- BOTÓN REFRESCAR -->
@@ -76,19 +91,24 @@
                         <On Platform="WinUI"   Value="120" />
                     </OnPlatform>
                 </Button.WidthRequest>
+                
+                <Button.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android" Value="12" />
+                        <On Platform="WinUI"   Value="14" />
+                    </OnPlatform>
+                </Button.FontSize>
             </Button>
 
         </FlexLayout>
 
         <!-- LISTA DE USUARIOS -->
         <Grid>
-            <!-- Forzamos altura para scroll interno en la lista -->
             <CollectionView ItemsSource="{Binding Usuarios}"
                             SelectionMode="Single"
                             VerticalOptions="FillAndExpand"
                             HeightRequest="425">
 
-                <!-- Separación vertical entre ítems -->
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical"
                                        ItemSpacing="12.5" />
@@ -96,26 +116,16 @@
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <!-- FRAME (con OnPlatform para su ancho) -->
                         <Frame BackgroundColor="#444444"
                                CornerRadius="10"
                                Padding="10"
                                HorizontalOptions="Center">
-
-                            <!-- Ajuste dinámico del ancho según plataforma -->
                             <Frame.WidthRequest>
                                 <OnPlatform x:TypeArguments="x:Double">
-                                    <On Platform="Android" Value="320" />
+                                    <On Platform="Android" Value="340" />
                                     <On Platform="WinUI"   Value="600" />
                                 </OnPlatform>
                             </Frame.WidthRequest>
-
-                            <!-- Distribución horizontal en 4 columnas: 
-                                 0) Avatar
-                                 1) Datos del usuario
-                                 2) Botón Editar
-                                 3) Botón Eliminar 
-                            -->
                             <Grid ColumnSpacing="10">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto" />
@@ -137,35 +147,59 @@
                                     </Image.Clip>
                                 </Image>
 
-                                <!-- Datos del Usuario -->
+                                <!-- DATOS DEL USUARIO (Nombre, Correo, ID) -->
                                 <StackLayout Grid.Column="1"
                                              Orientation="Vertical"
                                              HorizontalOptions="FillAndExpand"
                                              Spacing="2"
                                              Margin="10,0,0,0">
+
+                                    <!-- NOMBRE -->
                                     <Label Text="{Binding Nombre}"
-                                           FontSize="18"
-                                           TextColor="White" />
+                                           TextColor="White">
+                                        <Label.FontSize>
+                                            <OnPlatform x:TypeArguments="x:Double">
+                                                <On Platform="Android" Value="14" />
+                                                <On Platform="WinUI"   Value="18" />
+                                            </OnPlatform>
+                                        </Label.FontSize>
+                                    </Label>
+
+                                    <!-- CORREO -->
                                     <Label Text="{Binding Correo, StringFormat='Email: {0}'}"
-                                           FontSize="14"
-                                           TextColor="#AAAAAA" />
+                                           TextColor="#AAAAAA">
+                                        <Label.FontSize>
+                                            <OnPlatform x:TypeArguments="x:Double">
+                                                <On Platform="Android" Value="10" />
+                                                <On Platform="WinUI"   Value="16" />
+                                            </OnPlatform>
+                                        </Label.FontSize>
+                                    </Label>
+
+                                    <!-- ID -->
                                     <Label Text="{Binding Id, StringFormat='ID: {0}'}"
-                                           FontSize="12"
-                                           TextColor="#AAAAAA" />
+                                           TextColor="#AAAAAA">
+                                        <Label.FontSize>
+                                            <OnPlatform x:TypeArguments="x:Double">
+                                                <On Platform="Android" Value="9" />
+                                                <On Platform="WinUI"   Value="14" />
+                                            </OnPlatform>
+                                        </Label.FontSize>
+                                    </Label>
                                 </StackLayout>
 
                                 <!-- BOTÓN EDITAR -->
                                 <Button Grid.Column="2"
+                                        HeightRequest="40"
+                                        CornerRadius="8"
+                                        Margin="0,0,5,0"
+                                        ImageSource="editar.png"
                                         Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ComandoSeleccionarUsuario}"
                                         CommandParameter="{Binding .}"
                                         BackgroundColor="#FF8C00"
-                                        TextColor="White"
-                                        HeightRequest="40"
-                                        CornerRadius="8"
-                                        ImageSource="editar.png"
-                                        Margin="0,0,5,0">
+                                        TextColor="White">
 
-                                    <!-- Texto según la plataforma -->
+                                    <!-- Texto y ancho según plataforma -->
                                     <Button.Text>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="Android" Value="" />
@@ -173,38 +207,33 @@
                                         </OnPlatform>
                                     </Button.Text>
 
-                                    <!-- Ancho según la plataforma -->
                                     <Button.WidthRequest>
                                         <OnPlatform x:TypeArguments="x:Double">
                                             <On Platform="Android" Value="45" />
                                             <On Platform="WinUI"   Value="100" />
                                         </OnPlatform>
                                     </Button.WidthRequest>
+
+                                    <!-- FontSize según plataforma -->
+                                    <Button.FontSize>
+                                        <OnPlatform x:TypeArguments="x:Double">
+                                            <On Platform="Android" Value="12" />
+                                            <On Platform="WinUI"   Value="14" />
+                                        </OnPlatform>
+                                    </Button.FontSize>
                                 </Button>
 
                                 <!-- BOTÓN ELIMINAR -->
                                 <Button Grid.Column="3"
+                                        HeightRequest="40"
+                                        WidthRequest="43"
+                                        CornerRadius="8"
+                                        ImageSource="basura.png"
                                         Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ComandoEliminarUsuario}"
                                         CommandParameter="{Binding .}"
                                         BackgroundColor="#C0392B"
-                                        TextColor="White"
-                                        HeightRequest="40"
-                                        CornerRadius="8"
-                                        ImageSource="basura.png">
+                                        TextColor="White">
 
-                                    <Button.Text>
-                                        <OnPlatform x:TypeArguments="x:String">
-                                            <On Platform="Android" Value="" />
-                                            <On Platform="WinUI"   Value="" />
-                                        </OnPlatform>
-                                    </Button.Text>
-
-                                    <Button.WidthRequest>
-                                        <OnPlatform x:TypeArguments="x:Double">
-                                            <On Platform="Android" Value="45" />
-                                            <On Platform="WinUI"   Value="40" />
-                                        </OnPlatform>
-                                    </Button.WidthRequest>
                                 </Button>
 
                             </Grid>
@@ -213,5 +242,6 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </Grid>
+
     </VerticalStackLayout>
 </ContentPage>

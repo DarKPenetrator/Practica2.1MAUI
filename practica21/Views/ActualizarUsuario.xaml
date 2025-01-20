@@ -2,54 +2,127 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="practica21.Views.ActualizarUsuario"
-             Title="Actualizar Usuario"
              BackgroundColor="#333333">
 
     <VerticalStackLayout Padding="20" Spacing="15">
 
+        <Label Text="Actualizar Usuario"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               FontSize="24"
+               TextColor="#FF8C00"
+               Margin="0,20,0,10" />
+
         <!-- Campo para Nombre -->
-        <Entry x:Name="NombreEntry"
-               Placeholder="Nuevo Nombre"
-               FontSize="18"
-               HorizontalOptions="Fill"
-               TextColor="White"
-               PlaceholderColor="#AAAAAA" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*" />
+                <ColumnDefinition Width="4.45*" />
+                <ColumnDefinition Width="0.8*" />
+            </Grid.ColumnDefinitions>
+
+            <Entry x:Name="NombreEntry"
+                   Placeholder="Nombre"
+                   FontSize="18"
+                   HorizontalOptions="Fill"
+                   TextColor="White"
+                   PlaceholderColor="#AAAAAA"
+                   Grid.Column="1" />
+        </Grid>
 
         <!-- Campo para Correo -->
-        <Entry x:Name="CorreoEntry"
-               Placeholder="Nuevo Correo"
-               FontSize="18"
-               Keyboard="Email"
-               HorizontalOptions="Fill"
-               TextColor="White"
-               PlaceholderColor="#AAAAAA" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*" />
+                <ColumnDefinition Width="4.45*" />
+                <ColumnDefinition Width="0.8*" />
+            </Grid.ColumnDefinitions>
+
+            <Entry x:Name="CorreoEntry"
+                   Placeholder="Correo"
+                   FontSize="18"
+                   Keyboard="Email"
+                   HorizontalOptions="Fill"
+                   TextColor="White"
+                   PlaceholderColor="#AAAAAA"
+                   Grid.Column="1" />
+        </Grid>
 
         <!-- Botones -->
-        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+        <FlexLayout Direction="Row"
+                    Wrap="NoWrap"
+                    JustifyContent="Center"
+                    AlignItems="Center"
+                    Margin="20">
 
+            <!-- BOTÓN ACTUALIZAR -->
+            <Button CornerRadius="20" 
+                    HeightRequest="40"
+                    ContentLayout="Left,5"
+                    Clicked="OnActualizarClicked"
+                    BackgroundColor="#FF8C00"
+                    TextColor="White"
+                    ImageSource="guardar.png"
+                    Margin="0,0,20,0">
 
+                <!-- Texto según plataforma -->
+                <Button.Text>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="Android" Value="Agregar" />
+                        <On Platform="WinUI"   Value="Agregar" />
+                    </OnPlatform>
+                </Button.Text>
 
-            <Button Text="Actualizar"
-        Clicked="OnActualizarClicked"
-        BackgroundColor="#FF8C00"
-        TextColor="White"
-        ImageSource="guardar.png"
-        ContentLayout="Left, 5"
-        WidthRequest="120"
-        HeightRequest="40"
-        CornerRadius="20" />
+                <!-- Ancho según la plataforma -->
+                <Button.WidthRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android" Value="120" />
+                        <On Platform="WinUI"   Value="120" />
+                    </OnPlatform>
+                </Button.WidthRequest>
 
-            <Button Text="Cancelar"
-        Clicked="OnCancelarClicked"
-        BackgroundColor="#666666"
-        TextColor="White"
-        ImageSource="cancelar.png"
-        ContentLayout="Left, 5"
-        WidthRequest="120"
-        HeightRequest="40"
-        CornerRadius="20" />
+                <!-- FontSize según la plataforma -->
+                <Button.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android" Value="12" />
+                        <On Platform="WinUI"   Value="14" />
+                    </OnPlatform>
+                </Button.FontSize>
+            </Button>
 
-        </HorizontalStackLayout>
+            <!-- BOTÓN CANCERLAR -->
+            <Button CornerRadius="20"
+                    HeightRequest="40"
+                    ContentLayout="Left,5"
+                    Clicked="OnCancelarClicked"
+                    BackgroundColor="#666666"
+                    TextColor="White"
+                    ImageSource="cancelar.png">
+
+                <Button.Text>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="Android" Value="Cancelar" />
+                        <On Platform="WinUI"   Value="Cancelar" />
+                    </OnPlatform>
+                </Button.Text>
+
+                <Button.WidthRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android" Value="120" />
+                        <On Platform="WinUI"   Value="120" />
+                    </OnPlatform>
+                </Button.WidthRequest>
+
+                <!-- También ajustamos FontSize -->
+                <Button.FontSize>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android" Value="12" />
+                        <On Platform="WinUI"   Value="14" />
+                    </OnPlatform>
+                </Button.FontSize>
+            </Button>
+
+        </FlexLayout>
 
     </VerticalStackLayout>
 </ContentPage>

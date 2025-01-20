@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\georg\source\repos\practica21\practica21\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-20T22:45:15.430</Modified>
+      <Modified>2025-01-21T02:53:20.535</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-20T22:45:15.214</Modified>
+      <Modified>2025-01-21T02:52:33.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\practica21.runtimeconfig.json">
       <PackagePath>practica21.runtimeconfig.json</PackagePath>
-      <Modified>2025-01-20T18:16:46.879</Modified>
+      <Modified>2025-01-21T02:52:33.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\practica21.dll">
       <PackagePath>practica21.dll</PackagePath>
-      <Modified>2025-01-20T22:45:13.901</Modified>
+      <Modified>2025-01-21T02:53:20.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>practica21.exe</PackagePath>
-      <Modified>2025-01-20T22:45:13.949</Modified>
+      <Modified>2025-01-21T02:53:20.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,23 +56,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:44.579</Modified>
+      <Modified>2025-01-21T02:52:31.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:44.591</Modified>
+      <Modified>2025-01-21T02:52:31.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:44.607</Modified>
+      <Modified>2025-01-21T02:52:31.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:44.632</Modified>
+      <Modified>2025-01-21T02:52:31.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:44.728</Modified>
+      <Modified>2025-01-21T02:52:31.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -84,239 +84,239 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-01-20T18:16:45.398</Modified>
+      <Modified>2025-01-21T02:52:31.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.391</Modified>
+      <Modified>2025-01-21T02:52:31.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.391</Modified>
+      <Modified>2025-01-21T02:52:31.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.391</Modified>
+      <Modified>2025-01-21T02:52:31.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.391</Modified>
+      <Modified>2025-01-21T02:52:31.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.391</Modified>
+      <Modified>2025-01-21T02:52:31.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.395</Modified>
+      <Modified>2025-01-21T02:52:31.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.395</Modified>
+      <Modified>2025-01-21T02:52:31.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.395</Modified>
+      <Modified>2025-01-21T02:52:31.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.395</Modified>
+      <Modified>2025-01-21T02:52:31.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.395</Modified>
+      <Modified>2025-01-21T02:52:31.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.396</Modified>
+      <Modified>2025-01-21T02:52:31.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.396</Modified>
+      <Modified>2025-01-21T02:52:31.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.396</Modified>
+      <Modified>2025-01-21T02:52:31.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.396</Modified>
+      <Modified>2025-01-21T02:52:31.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.396</Modified>
+      <Modified>2025-01-21T02:52:31.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.398</Modified>
+      <Modified>2025-01-21T02:52:31.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.398</Modified>
+      <Modified>2025-01-21T02:52:31.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.397</Modified>
+      <Modified>2025-01-21T02:52:31.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.397</Modified>
+      <Modified>2025-01-21T02:52:31.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.397</Modified>
+      <Modified>2025-01-21T02:52:31.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.397</Modified>
+      <Modified>2025-01-21T02:52:31.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.397</Modified>
+      <Modified>2025-01-21T02:52:31.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.396</Modified>
+      <Modified>2025-01-21T02:52:31.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.397</Modified>
+      <Modified>2025-01-21T02:52:31.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.396</Modified>
+      <Modified>2025-01-21T02:52:31.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.393</Modified>
+      <Modified>2025-01-21T02:52:31.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.393</Modified>
+      <Modified>2025-01-21T02:52:31.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.393</Modified>
+      <Modified>2025-01-21T02:52:31.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.392</Modified>
+      <Modified>2025-01-21T02:52:31.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.392</Modified>
+      <Modified>2025-01-21T02:52:31.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.394</Modified>
+      <Modified>2025-01-21T02:52:31.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.394</Modified>
+      <Modified>2025-01-21T02:52:31.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.393</Modified>
+      <Modified>2025-01-21T02:52:31.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.393</Modified>
+      <Modified>2025-01-21T02:52:31.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.393</Modified>
+      <Modified>2025-01-21T02:52:31.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.395</Modified>
+      <Modified>2025-01-21T02:52:31.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.394</Modified>
+      <Modified>2025-01-21T02:52:31.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.394</Modified>
+      <Modified>2025-01-21T02:52:31.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.394</Modified>
+      <Modified>2025-01-21T02:52:31.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.394</Modified>
+      <Modified>2025-01-21T02:52:31.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.392</Modified>
+      <Modified>2025-01-21T02:52:31.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.392</Modified>
+      <Modified>2025-01-21T02:52:31.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.392</Modified>
+      <Modified>2025-01-21T02:52:31.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.392</Modified>
+      <Modified>2025-01-21T02:52:31.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.391</Modified>
+      <Modified>2025-01-21T02:52:31.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\basura.scale-100.png">
       <PackagePath>basura.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.389</Modified>
+      <Modified>2025-01-21T02:52:31.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cancelar.scale-100.png">
       <PackagePath>cancelar.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.389</Modified>
+      <Modified>2025-01-21T02:52:31.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.399</Modified>
+      <Modified>2025-01-21T02:52:31.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.399</Modified>
+      <Modified>2025-01-21T02:52:31.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.398</Modified>
+      <Modified>2025-01-21T02:52:31.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.398</Modified>
+      <Modified>2025-01-21T02:52:31.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.398</Modified>
+      <Modified>2025-01-21T02:52:31.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\editar.scale-100.png">
       <PackagePath>editar.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.389</Modified>
+      <Modified>2025-01-21T02:52:31.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\guardar.scale-100.png">
       <PackagePath>guardar.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.389</Modified>
+      <Modified>2025-01-21T02:52:31.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.389</Modified>
+      <Modified>2025-01-21T02:52:31.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mas.scale-100.png">
       <PackagePath>mas.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.389</Modified>
+      <Modified>2025-01-21T02:52:31.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\refrescar.scale-100.png">
       <PackagePath>refrescar.scale-100.png</PackagePath>
-      <Modified>2025-01-20T18:16:45.389</Modified>
+      <Modified>2025-01-21T02:52:31.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\practica21\practica21\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\practica21.deps.json">
       <PackagePath>practica21.deps.json</PackagePath>
-      <Modified>2025-01-20T22:45:15.038</Modified>
+      <Modified>2025-01-21T02:52:33.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

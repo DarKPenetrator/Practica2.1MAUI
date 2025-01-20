@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practica21.Views.ActualizarUsuario"
+             Title="Actualizar Usuario"
+             BackgroundColor="#333333">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Campo para Nombre -->
+        <Entry x:Name="NombreEntry"
+               Placeholder="Nuevo Nombre"
+               FontSize="18"
+               HorizontalOptions="Fill"
+               TextColor="White"
+               PlaceholderColor="#AAAAAA" />
+
+        <!-- Campo para Correo -->
+        <Entry x:Name="CorreoEntry"
+               Placeholder="Nuevo Correo"
+               FontSize="18"
+               Keyboard="Email"
+               HorizontalOptions="Fill"
+               TextColor="White"
+               PlaceholderColor="#AAAAAA" />
+
+        <!-- Botones -->
+        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+
+
+
+            <Button Text="Actualizar"
+        Clicked="OnActualizarClicked"
+        BackgroundColor="#FF8C00"
+        TextColor="White"
+        ImageSource="guardar.png"
+        ContentLayout="Left, 5"
+        WidthRequest="120"
+        HeightRequest="40"
+        CornerRadius="20" />
+
+            <Button Text="Cancelar"
+        Clicked="OnCancelarClicked"
+        BackgroundColor="#666666"
+        TextColor="White"
+        ImageSource="cancelar.png"
+        ContentLayout="Left, 5"
+        WidthRequest="120"
+        HeightRequest="40"
+        CornerRadius="20" />
+
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

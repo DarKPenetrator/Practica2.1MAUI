@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="practica21.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:practica21"
+    Shell.FlyoutBehavior="Disabled"
+    Title="practica21">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent 
+    Route="FormularioUsuario" 
+    ContentTemplate="{DataTemplate local:Views.FormularioUsuario}" />
+    <ShellContent 
+    Route="ActualizarUsuario" 
+    ContentTemplate="{DataTemplate local:Views.ActualizarUsuario}" />
+
+</Shell>

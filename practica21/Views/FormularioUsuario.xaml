@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practica21.Views.FormularioUsuario"
+             Title="Formulario Usuario"
+             BackgroundColor="#333333">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Campo para Nombre -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*" />
+                <ColumnDefinition Width="4.45*" />
+                <ColumnDefinition Width="0.8*" />
+            </Grid.ColumnDefinitions>
+
+            <Entry x:Name="NombreEntry"
+                   Placeholder="Nombre"
+                   FontSize="18"
+                   HorizontalOptions="Fill"
+                   TextColor="White"
+                   PlaceholderColor="#AAAAAA"
+                   Grid.Column="1" />
+        </Grid>
+
+        <!-- Campo para Correo -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*" />
+                <ColumnDefinition Width="4.45*" />
+                <ColumnDefinition Width="0.8*" />
+            </Grid.ColumnDefinitions>
+
+            <Entry x:Name="CorreoEntry"
+                   Placeholder="Correo"
+                   FontSize="18"
+                   Keyboard="Email"
+                   HorizontalOptions="Fill"
+                   TextColor="White"
+                   PlaceholderColor="#AAAAAA"
+                   Grid.Column="1" />
+        </Grid>
+
+        <!-- Botones -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*" />
+                <ColumnDefinition Width="4.45*" />
+                <ColumnDefinition Width="0.8*" />
+            </Grid.ColumnDefinitions>
+
+            <HorizontalStackLayout Grid.Column="1"
+                                   HorizontalOptions="CenterAndExpand"
+                                   VerticalOptions="Center"
+                                   Spacing="20">
+
+               
+
+                <Button Text="Agregar"
+        Clicked="OnAgregarClicked"
+        BackgroundColor="#FF8C00"
+        TextColor="White"
+        ImageSource="guardar.png"
+        ContentLayout="Left, 5"
+        WidthRequest="120"
+        HeightRequest="40"
+        CornerRadius="20" />
+
+                <Button Text="Cancelar"
+        Clicked="OnCancelarClicked"
+        BackgroundColor="#666666"
+        TextColor="White"
+        ImageSource="cancelar.png"
+        ContentLayout="Left, 5"
+        WidthRequest="120"
+        HeightRequest="40"
+        CornerRadius="20" />
+
+
+
+            </HorizontalStackLayout>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>
